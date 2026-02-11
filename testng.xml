@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="OrangeHRM Suite" verbose="1" parallel="false">
+    <!-- Set the default browser here -->
+    <parameter name="Browser" value="Chrome"/>
+
+    <test name="OrangeHRM Tests">
+        <classes>
+            <class name="com.selenium.miniproject.HumanResourceManagement"/>
+        </classes>
+    </test>
+</suite>
